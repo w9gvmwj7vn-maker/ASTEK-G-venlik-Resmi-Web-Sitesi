@@ -18,8 +18,9 @@ body{
 }
 
 .hero h1{
-    font-size:48px;
-    color:#fff;
+    font-size:60px;
+    font-weight:800;
+    letter-spacing:2px;
     margin-bottom:20px;
 }
 
