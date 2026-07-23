@@ -177,3 +177,65 @@ html{
     display:block;
     margin:0 auto 30px;
 }
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    margin:auto;
+}
+
+.glow{
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#c40000;
+    border-radius:50%;
+    filter:blur(180px);
+    opacity:.25;
+    top:-120px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:1;
+}
+
+.logo{
+    width:280px;
+    max-width:85%;
+    height:auto;
+    display:block;
+    margin:0 auto 40px;
+    transition:.4s;
+}
+
+.logo:hover{
+    transform:scale(1.04);
+}
+
+.hero h1{
+    font-size:72px;
+    font-weight:800;
+    letter-spacing:3px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-top:15px;
+}
+
+.hero h3{
+    color:#ff4444;
+    margin-top:15px;
+}
+
+.buttons{
+    margin-top:45px;
+}
